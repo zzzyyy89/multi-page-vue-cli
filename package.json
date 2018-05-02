@@ -1,0 +1,37 @@
+{
+  "name": "multi-page-vue-cli",
+  "version": "0.0.1",
+  "description": "cli of multi page",
+  "main": "index.js",
+  "bin": {
+    "multi-cli": "./bin/build.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzyyy89/multi-page-vue-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "multi",
+    "page"
+  ],
+  "author": "zzzyyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzzyyy89/multi-page-vue-cli/issues"
+  },
+  "homepage": "https://github.com/zzzyyy89/multi-page-vue-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "ora": "^2.1.0",
+    "rimraf": "^2.6.2"
+  }
+}
